@@ -21,12 +21,10 @@ function hello_elementor_child_enqueue_scripts() {
 		$version
 	);
 	wp_enqueue_style(
-		'hello-elementor-child-common',
-		get_stylesheet_directory_uri() . '/css/common.css',
-		[
-			'hello-elementor-theme-common',
-		],
-		$version
+		'hello-elementor-child-hello',
+		get_stylesheet_directory_uri() . '/css/hello.css',
+		array(),
+		$version,'all'
 	);
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_child_enqueue_scripts', 20 );
