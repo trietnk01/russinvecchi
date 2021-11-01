@@ -1,0 +1,42 @@
+version: '3.3'
+services:
+  mysql:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_DATABASE: russinvecchi
+      MYSQL_ROOT_PASSWORD: abc123
+    ports:
+      - 7112:3306
+    volumes:
+      - datadb:/var/lib/mysql
+      - ./db:/db  
+  phpmyadmin:
+    depends_on:
+      - mysql
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - 7113:80
+    environment:
+      PMA_HOST: mysql
+      MYSQL_ROOT_PASSWORD: abc123 
+  nginx:
+    build: ./docker/nginx
+    restart: always
+    volumes:
+      - .:/var/www/html
+    ports:
+      - 7111:80
+  php:
+    build: ./docker/php
+    restart: always
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/var/www/html
+volumes: 
+    datadb:
+    datamongodb:
+
