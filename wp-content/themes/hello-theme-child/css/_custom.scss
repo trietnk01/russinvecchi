@@ -3,18 +3,47 @@
 }
 .site-header {
   padding-top: 24x;
-  padding-bottom: 24px;  
+  padding-bottom: 24px;
   .site-navigation {
     ul.menu {
       li {
         a {
           font-family: $f_Roboto;
           font-size: 12px;
-          font-weight: 400;          
+          font-weight: 400;
           padding-top: 0;
-          padding-bottom: 0;          
+          padding-bottom: 0;
         }
       }
     }
+  }
+}
+.city-province-menu {
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
+footer {
+  display: flex;
+  align-items: center;
+  padding: 0 64px;
+  background-color: $secondary_color;
+  color: #fff;
+  .col-logo {
+    width: 40%;
+    text-align: center;
+    a {
+      .logo-footer {
+        width: 288px;
+      }
+    }
+  }
+  .col-card{
+    width: 30%;
+  }
+  .col-contact{
+    width: 30%;
   }
 }

@@ -15,4 +15,29 @@
   padding-bottom: 0;
 }
 
+.city-province-menu ul li {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  padding: 0 64px;
+  background-color: #2A2F36;
+  color: #fff;
+}
+footer .col-logo {
+  width: 40%;
+  text-align: center;
+}
+footer .col-logo a .logo-footer {
+  width: 288px;
+}
+footer .col-card {
+  width: 30%;
+}
+footer .col-contact {
+  width: 30%;
+}
+
 /*# sourceMappingURL=hello.css.map */
