@@ -28,3 +28,12 @@ function hello_elementor_child_enqueue_scripts() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_child_enqueue_scripts', 20 );
+
+// get page footer
+// acf_add_options_page(array(
+//     'page_title' => 'PAGE Footer',
+//     'menu_title' => 'PAGE Footer',
+//     'menu_slug' => 'p_footer',
+//     'capability' => 'edit_posts',
+//     'redirect' => admin_url('admin.php?page=page_option'),
+// ));

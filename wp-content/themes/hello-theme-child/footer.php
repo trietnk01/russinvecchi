@@ -12,9 +12,9 @@
 	<div class="col-white"></div>
 	<div class="col-card ps-4 pe-4">
 		<div>
-			<p style="text-align: center;">DISCLAMER</p>
-			<p style="text-align: center;">PRIVATE POLICY</p>
-			<p style="text-align: center;">RELATIONSHIPS BETWEEN LAWYERS</p>
+			<p style="text-align: center;"><a href="#">DISCLAMER</a></p>
+			<p style="text-align: center;"><a href="#">PRIVATE POLICY</a></p>
+			<p style="text-align: center;"><a href="#">RELATIONSHIPS BETWEEN LAWYERS</a></p>
 		</div>
 	</div>
 	<div class="col-white"></div>

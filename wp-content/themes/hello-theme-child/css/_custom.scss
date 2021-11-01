@@ -54,7 +54,10 @@ footer {
     width: 30%;  
     display: flex;
     align-items: center;
-    justify-content: center;       
+    justify-content: center;
+    a{
+      color: #fff !important;  
+    }         
   }
   .col-contact{
     width: 30%;

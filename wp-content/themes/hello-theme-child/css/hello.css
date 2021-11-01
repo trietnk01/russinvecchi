@@ -533,6 +533,9 @@ footer .col-card {
   align-items: center;
   justify-content: center;
 }
+footer .col-card a {
+  color: #fff !important;
+}
 footer .col-contact {
   width: 30%;
   text-align: right;
