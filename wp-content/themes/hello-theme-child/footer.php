@@ -11,10 +11,12 @@
 	</div>
 	<div class="col-white"></div>
 	<div class="col-card ps-4 pe-4">
-		<p style="text-align: center;">DISCLAMER</p>
-		<p style="text-align: center;">PRIVATE POLICY</p>
-		<p style="text-align: center;">RELATIONSHIPS BETWEEN LAWYERS</p>
-	</div >
+		<div>
+			<p style="text-align: center;">DISCLAMER</p>
+			<p style="text-align: center;">PRIVATE POLICY</p>
+			<p style="text-align: center;">RELATIONSHIPS BETWEEN LAWYERS</p>
+		</div>
+	</div>
 	<div class="col-white"></div>
 	<div class="col-contact ps-4">
 		<a href="javascript:void(0);" class="contact-footer mb-2">CONTACT</a>

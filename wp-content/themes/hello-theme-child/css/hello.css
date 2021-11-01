@@ -529,6 +529,9 @@ footer .col-white {
 }
 footer .col-card {
   width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 footer .col-contact {
   width: 30%;

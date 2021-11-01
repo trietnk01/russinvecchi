@@ -51,7 +51,10 @@ footer {
     }
   }
   .col-card{
-    width: 30%;         
+    width: 30%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;       
   }
   .col-contact{
     width: 30%;
