@@ -1,0 +1,21 @@
+@for $i from 1 through 20 {
+    $spac:$i*8px;
+    .mb-#{$i}{
+        margin-bottom: $spac;
+    }
+    .mt-#{$i}{
+        margin-top: $spac;
+    }
+    .pb-#{$i}{
+        padding-bottom: $spac;
+    }
+    .pt-#{$i}{
+        padding-top: $spac;
+    }
+    .ps-#{$i}{
+        padding-left: $spac;
+    }
+    .pe-#{$i}{
+        padding-right: $spac;
+    }
+}
