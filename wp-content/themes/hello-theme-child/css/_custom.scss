@@ -7,7 +7,10 @@
   .site-navigation {
     ul.menu {
       li {
-        a {          
+        a {
+          font-family: $f_Roboto;
+          font-size: 12px;
+          font-weight: 400;          
           padding-top: 0;
           padding-bottom: 0;          
         }
