@@ -1,6 +1,6 @@
 <footer class="ps-8 pe-8 pt-6 pb-6">
 	<div class="col-logo pe-4">
-		<p style="text-align: center;"><a href="#"><img class="logo-footer" src="http://russinvecchi.dienkim/wp-content/uploads/logo.png" alt=""></a></p>
+		<p style="text-align: center;"><a href="#"><img class="logo-footer" src="http://preprod.itsabeautifulway.com/russinvecchi.com/wp-content/uploads/logo.png" alt=""></a></p>
 		<p style="text-align: center;">
 			Russin & Vecchi was founded in Asia over 50 years ago to serve emerging economies.
 			From entry strategy to operations, we provide creative and alternative legal, business solutions in many fields. We bring practical and commercial answers to our clients.
