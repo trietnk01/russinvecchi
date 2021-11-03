@@ -1,8 +1,11 @@
 .site-branding {
   margin-bottom: 32px;
+  @media(max-width:992px){
+    margin-bottom: 0;
+  }
 }
 .site-header {
-  padding-top: 24x;
+  padding-top: 24px;
   padding-bottom: 24px;
   .site-navigation {
     ul.menu {
@@ -42,5 +45,48 @@
 .footer-address {
   @media (max-width: 992px) {
     text-align: center !important;
+  }
+}
+.footer-flex-box {
+  > div {
+    @media (max-width: 992px) {
+      justify-content: space-around;
+    }
+  }
+  .footer-col-left {
+    > div {
+      @media (max-width: 576px) {
+        padding-right: 0 !important;
+      }
+    }
+    @media (max-width: 992px) {
+      margin-bottom: 32px;
+    }
+  }
+  .footer-col-right {
+    > div {
+      @media (max-width: 576px) {
+        border-left: 0 !important;
+      }
+    }
+  }
+}
+.r-v-offices {
+  > div {
+    @media (max-width: 992px) {
+      justify-content: space-around;
+    }
+  }
+}
+.site-navigation-toggle-holder {
+  @media (max-width: 992px) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
   }
 }

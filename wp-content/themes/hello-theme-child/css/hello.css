@@ -490,9 +490,14 @@
 .site-branding {
   margin-bottom: 32px;
 }
+@media (max-width: 992px) {
+  .site-branding {
+    margin-bottom: 0;
+  }
+}
 
 .site-header {
-  padding-top: 24x;
+  padding-top: 24px;
   padding-bottom: 24px;
 }
 .site-header .site-navigation ul.menu li a {
@@ -525,6 +530,46 @@
 @media (max-width: 992px) {
   .footer-address {
     text-align: center !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-flex-box > div {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 576px) {
+  .footer-flex-box .footer-col-left > div {
+    padding-right: 0 !important;
+  }
+}
+@media (max-width: 992px) {
+  .footer-flex-box .footer-col-left {
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 576px) {
+  .footer-flex-box .footer-col-right > div {
+    border-left: 0 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .r-v-offices > div {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 992px) {
+  .site-navigation-toggle-holder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
   }
 }
 
