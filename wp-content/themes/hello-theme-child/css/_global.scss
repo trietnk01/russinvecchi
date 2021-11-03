@@ -1,3 +1,10 @@
+.russin-container{
+    @media (min-width: 1921px) {
+        max-width: 1000px ;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }   
+}
 @for $i from 1 through 20 {
     $spac:$i*8px;
     .mb-#{$i}{
