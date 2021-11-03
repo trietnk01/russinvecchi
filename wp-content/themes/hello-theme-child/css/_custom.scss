@@ -39,9 +39,34 @@
     }
   }
   .footer-col-left {
+    @media(max-width:992px){
+      margin-bottom: 24px;
+    }
     > div {
       @media (max-width: 992px) {
         padding-right: 0 !important;
+      }
+    }
+  }
+  .footer-col-center {
+    @media(max-width:992px){
+      margin-bottom: 24px;
+    }
+    > div {
+      @media (max-width: 992px) {
+        border-left: 0 !important;
+      }
+    }
+  }
+  .footer-col-right {
+    > div {
+      @media (max-width: 992px) {
+        border-left: 0 !important;
+      }
+    }
+    .footer-address {
+      @media (max-width: 992px) {
+        text-align: center !important;
       }
     }
   }

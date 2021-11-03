@@ -524,8 +524,33 @@
   }
 }
 @media (max-width: 992px) {
+  .footer-flex-box .footer-col-left {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 992px) {
   .footer-flex-box .footer-col-left > div {
     padding-right: 0 !important;
+  }
+}
+@media (max-width: 992px) {
+  .footer-flex-box .footer-col-center {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 992px) {
+  .footer-flex-box .footer-col-center > div {
+    border-left: 0 !important;
+  }
+}
+@media (max-width: 992px) {
+  .footer-flex-box .footer-col-right > div {
+    border-left: 0 !important;
+  }
+}
+@media (max-width: 992px) {
+  .footer-flex-box .footer-col-right .footer-address {
+    text-align: center !important;
   }
 }
 
