@@ -1,4 +1,4 @@
-<footer class="ps-8 pe-8 pt-6 pb-6">
+<footer class="ps-8 pe-8 pt-8 pb-8">
 	<div class="col-logo pe-4">
 		<p style="text-align: center;"><a href="#"><img class="logo-footer" src="http://preprod.itsabeautifulway.com/russinvecchi.com/wp-content/uploads/logo.png" alt=""></a></p>
 		<p style="text-align: center;">
@@ -26,7 +26,7 @@
 			<p>Taipei, Taiwan</p>
 			<p>T: 886-2-2712-8956/2713-6110</p>
 			<p>F: 886-2-2713-4711</p>
-			<p>russin@russinvecchi.com.tw</p>
+			<p><a style="color:#fff" href="#">russin@russinvecchi.com.tw</a></p>
 		</div>
 	</div>
 </footer>

@@ -553,9 +553,9 @@ footer .col-contact {
 }
 footer .col-contact .contact-footer {
   display: inline-block;
-  padding: 4px;
   background-color: #fff;
   color: #2A2F36;
+  padding: 4px;
 }
 footer .col-contact .address-phone-footer p {
   margin-bottom: 0;
