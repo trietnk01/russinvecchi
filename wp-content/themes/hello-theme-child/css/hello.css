@@ -513,8 +513,19 @@
   list-style: none;
 }
 
-.footer-col-center a {
+@media (max-width: 992px) {
+  .footer-col-center div {
+    border-left: 0 !important;
+  }
+}
+.footer-col-center div a {
   color: #fff;
+}
+
+@media (max-width: 992px) {
+  .footer-address {
+    text-align: center !important;
+  }
 }
 
 /*# sourceMappingURL=hello.css.map */

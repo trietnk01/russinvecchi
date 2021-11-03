@@ -29,8 +29,18 @@
     }
   }
 }
-.footer-col-center {  
-  a {
-    color: #fff;
-  }  
+.footer-col-center {
+  div {
+    @media (max-width: 992px) {
+      border-left: 0 !important;
+    }
+    a {
+      color: #fff;
+    }
+  }
+}
+.footer-address {
+  @media (max-width: 992px) {
+    text-align: center !important;
+  }
 }
