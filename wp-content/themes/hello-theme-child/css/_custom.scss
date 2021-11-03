@@ -34,11 +34,13 @@ footer {
   color: #fff;
   .russin-container {
     display: flex;
-    margin: 0 96px;
+    margin: 0 96px;    
+    justify-content: space-between;
+    flex-wrap: wrap;
     a {
       color: #fff;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {      
       margin: 0 16px;
     }
     @media (max-width: 576px) {
@@ -54,7 +56,7 @@ footer {
     .col-white {
       border-left: 1px solid #fff;
       height: 230px;
-      @media (max-width: 768px) {
+      @media (max-width: 992px) {
         height: 300px;
       }
       @media (max-width: 576px) {
@@ -66,7 +68,7 @@ footer {
       display: flex;
       align-items: center;
       justify-content: center;
-      @media (max-width: 768px) {
+      @media (max-width: 992px) {
         font-size: 12px;
       }
       @media (max-width: 576px) {
@@ -76,6 +78,9 @@ footer {
     .col-contact {
       width: 30%;
       text-align: right;
+      @media(max-width:992px){
+        width: 33%;
+      }
       @media (max-width: 576px) {
         text-align: center;
       }
@@ -94,8 +99,8 @@ footer {
     > div {
       @media (max-width: 576px) {
         width: 100% !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: 0 ;
+        padding-right: 0 ;
       }
     }
   }
