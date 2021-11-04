@@ -507,6 +507,11 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+@media (max-width: 1024px) {
+  .site-header .site-navigation ul.menu li a {
+    font-size: 10px;
+  }
+}
 
 .city-province-menu p {
   margin-bottom: 0;
